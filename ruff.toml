@@ -1,0 +1,34 @@
+target-version = "py312"
+
+line-length = 79
+indent-width = 4
+
+[lint]
+select = [
+    "F",
+    "E",
+    "W",
+    "I",
+    "N",
+    "UP",
+    "ASYNC",
+    "B",
+    "A",
+    "COM",
+    "C4",
+    "ISC",
+    "ICN",
+    "LOG",
+    "INP",
+    "PIE",
+    "T20",
+    "PT",
+    "Q",
+    "RSE",
+    "RET",
+    "SLF",
+    "ARG",
+    "ERA",
+    "PL",
+]
+exclude = ["alembic/*"]
